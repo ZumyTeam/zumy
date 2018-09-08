@@ -1,0 +1,9 @@
+Building ZuMY
+
+See doc/readme-qt.rst for instructions on building ZuMY QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of ZuMY.
+
+See doc/build-*.txt for instructions on building ZuMYd,
+the intended-for-services, no-graphical-interface, reference
+implementation of ZuMY.
