@@ -61,7 +61,7 @@ static const int64_t MIN_TX_COUNT = 0;
 /** Minimum TX value (for relaying) */
 static const int64_t MIN_TX_VALUE = 0.01 * COIN;
 /** No amount larger than this (in satoshi) is valid */
-static const int64_t MAX_SINGLE_TX = 18750000 * COIN; // 18.75 Million Zumy coins
+static const int64_t MAX_SINGLE_TX = 75000000 * COIN; // 75 Million Zumy coins
 /** Moneyrange params */
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_SINGLE_TX); }
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
