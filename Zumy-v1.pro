@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = Zumy-qt
-VERSION = 2.0.0.1
+VERSION = 1.0.0.1
 INCLUDEPATH += src src/json src/qt src/qt/plugins/mrichtexteditor
 QT += core gui widgets network printsupport
 DEFINES += ENABLE_WALLET

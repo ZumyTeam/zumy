@@ -560,7 +560,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     nMasternodeMinProtocol = GetArg("-masternodeminprotocol", MIN_POOL_PEER_PROTO_VERSION);
 
     if (fDaemon)
-        fprintf(stdout, "ZuMY server starting\n"); 
+        fprintf(stdout, "beep boop ZuMY server starting. Ready to Launch! xD\n"); 
 
     int64_t nStart;
 
